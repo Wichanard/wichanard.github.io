@@ -1,19 +1,12 @@
 ---
-layout: single
+layout:         single
 author_profile: true
-toc: true
-toc_label: "สารบัญเนื้อหา"
-toc_icon: "list"
-------
-layout: single
-author_profile: true
-toc: true
-toc_label: "สารบัญเนื้อหา"
-toc_icon: "list"
+toc:            true
+toc_sticky:     true
+toc_label:      "เนื้อหาในหน้านี้"
 ---
-<h1 style="font-family: 'Courier New', Courier, monospace; color: #2980b9;">
-  > <span id="typewriter"></span>
-</h1>
+
+# <span id="typewriter"></span>
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script>
@@ -24,20 +17,28 @@ toc_icon: "list"
   });
 
   typewriter
-    .typeString('ยินดีต้อนรับสู่โปรเจกต์ของผม')
+    .typeString('ยินดีต้อนรับสู่ GitHub ของผม')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('กำลังแสดงข้อมูลจาก <strong>datadet...</strong>')
+    .typeString('กำลังประมวลผลข้อมูล... <strong>datadet</strong>')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('Hi, I am <strong>Developer & Student</strong>')
-    .pauseFor(2000)
+    .typeString('I am <strong>AI Student & Developer</strong>')
+    .pauseFor(2500)
     .start();
 </script>
-### 📊 รายละเอียดข้อมูล
-หากต้องการดูข้อมูลเชิงลึก สามารถคลิกที่ปุ่มด้านล่างนี้ครับ:
 
-[ไปที่โฟลเดอร์ datadet](datadet/){: .btn .btn--info .btn--large .btn--pill}
+---
+
+### 📊 รายละเอียดข้อมูลเชิงลึก
+คุณสามารถเข้าชมข้อมูลที่รวบรวมไว้ได้ที่นี่:
+
+[เข้าสู่โฟลเดอร์ datadet](datadet/){: .btn .btn--info .btn--large .btn--pill}
+
+---
+
+## 🛠 เนื้อหาโปรเจกต์
+(พิมพ์เนื้อหาของคุณต่อตรงนี้ได้เลยครับ สารบัญด้านขวาจะสร้างให้อัตโนมัติจากหัวข้อที่คุณพิมพ์)
 # Wichanard Kumsang
 # Nickname First
 # Brithday 24/02/2548
