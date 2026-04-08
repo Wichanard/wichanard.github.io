@@ -1,1 +1,21 @@
 theme: mmistakes/minimal-mistakes
+# 1. เลือกโทนสีที่ดูสะอาดตา (แนะนำ 'air' หรือ 'contrast')
+minimal_mistakes_skin: "air" 
+
+# 2. เปิดใช้งานสารบัญ (Table of Contents) ให้อยู่ด้านขวาอัตโนมัติ
+toc: true
+toc_sticky: true
+
+# 3. จัดระเบียบ Sidebar (Info) ให้ครบถ้วน
+author:
+  name   : "ชื่อของคุณ"
+  avatar : "URL_รูปโปรไฟล์"
+  bio    : "นักพัฒนา | AI Student | Enthusiast"
+  location: "Bangkok, Thailand"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/your-profile"
