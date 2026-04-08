@@ -2,4 +2,4 @@
 # Nickname First
 # Brithday 24/02/2548
 # I LOVE MY JOB
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ชื่อของคุณ&show_icons=true&theme=ชื่อธีม)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Wichanard&theme=tokyonight)
