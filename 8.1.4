@@ -1,0 +1,45 @@
+# Live Lab: Filter Dashboard Data - Power BI Implementation
+
+## 📊 Project Overview
+This project demonstrates the implementation of various filtering techniques within Power BI to create a secure, efficient, and user-friendly data dashboard. As a Data Analyst, the primary goal was to restrict data access to necessary fields and provide interactive controls for end-users to explore student extracurricular activities.
+
+The project highlights the balance between **developer-defined constraints** (hard-coded filters) and **user-driven exploration** (interactive slicers).
+
+## 🎯 Mission Objectives
+- **Filter Architecture:** Implement and explore multiple Power BI filter types, including:
+    - Hard-coded filters (Visual-level).
+    - Page-level and Report-level filters.
+    - Interactive Slicers.
+    - Cross-filtering (Visuals as filters).
+- **Data Visualization:** Construct a high-density Matrix visual to display student-activity relationships.
+- **UX Enhancement:** Optimize the dashboard for end-user consumption using interactive elements.
+
+## 🛠️ CompTIA Data+ Objective Alignment
+This lab maps directly to the following professional certification objectives:
+* **2.1 Data Acquisition:** Selecting and connecting to the appropriate data sources for the dashboard.
+* **2.3 Data Transformation & Cleansing:** Ensuring data consistency before visualization.
+* **4.2 Delivery & Consumption:** Selecting the most effective method for end-users to interact with data.
+
+## 🚀 Key Features & Implementation
+
+### 1. Matrix Visualization
+Built a pivot-style display using the **Matrix Visual** to organize:
+* **Rows:** Student Names
+* **Columns:** Extracurricular Activities
+* **Values:** Participation counts or status.
+
+### 2. Multi-Layered Filtering Strategy
+To ensure the client sees only relevant information, the following layers were applied:
+* **Visual-Level Filters:** Hard-coded specific constraints to exclude irrelevant data points from the Matrix.
+* **Page-Level Filters:** Applied a uniform filter across all visuals on the specific report page to maintain context.
+* **Slicers:** Integrated interactive slicers (e.g., by Department or Term) to empower the consumer to customize their view dynamically.
+
+### 3. Interactivity
+* **Cross-Highlighting:** Enabled visuals to act as filters for one another, allowing for deep-dive analysis by clicking on specific data segments.
+
+## 📂 Project Structure
+```text
+├── Data/               # Raw or cleaned datasets (CSV/XLSX)
+├── Screenshots/        # Dashboard previews
+├── Filter_Lab.pbix     # Power BI Desktop project file
+└── README.md           # Project documentation
