@@ -1,0 +1,56 @@
+# Live Lab: Implement Data Type Selection and Conversion
+
+## 📋 Overview
+This project demonstrates the fundamental skills of a Data Analyst in managing, profiling, and transforming data across different environments. The lab focuses on ensuring data integrity through correct data type identification and conversion, which is a critical step in the Data Acquisition and Preparation phase.
+
+The mission involves working with **SQL Databases** for initial data review and structural modification, followed by advanced data transformation using **Power Query**.
+
+## 🎯 Objectives (CompTIA Data+ Mapping)
+This lab is aligned with the following exam objectives:
+- **1.2 Identify types of data sources:** Understanding relational databases and how data is stored.
+- **2.1 Given a scenario, use data acquisition methods:** Connecting to data sources and preparing data for analysis.
+
+## 🛠️ Tech Stack
+- **Database Management:** SQL Server / Microsoft Access (Design View)
+- **ETL & Transformation:** Power Query (Excel/Power BI)
+- **Documentation:** Markdown
+
+---
+
+## 🚀 Mission Workflow
+
+### 1. Database Connection & Review
+Connecting to the SQL database to understand the schema and underlying data structures. This phase involves:
+- Establishing a secure connection to the data source.
+- Previewing table contents to identify potential data type mismatches.
+- Documenting the initial state of the data profiling.
+
+### 2. Schema Modification (Design View)
+Modifying the table structure at the source level to ensure data consistency.
+- **Task:** Transitioning to "Design View" to adjust field properties.
+- **Action:** Changing data types (e.g., from Text to Numeric or Date/Time) to optimize storage and query performance.
+- **Outcome:** A refined database schema that strictly enforces data integrity.
+
+
+
+### 3. Data Transformation with Power Query
+Using Power Query as an ETL tool to further refine the data for reporting and analytics.
+- **Type Conversion:** Converting imported columns into appropriate formats (Currency, Percentage, Locale-based Dates).
+- **Data Profiling:** Using the "Column Quality" and "Column Distribution" features to identify errors or empty values resulting from incorrect type casting.
+- **Automation:** Creating a repeatable transformation pipeline that ensures future data imports follow the same logic.
+
+
+
+---
+
+## 💡 Key Learnings & Insights
+
+* **Data Integrity:** Correct data types prevent calculation errors (e.g., trying to sum a "String" version of a number).
+* **Storage Optimization:** Choosing the right data type (e.g., Integer vs. Float) can significantly reduce the database footprint.
+* **Interoperability:** Understanding how different applications (SQL vs. Power Query) interpret the same data prevents loss of information during migration.
+
+## 📁 Repository Structure
+```text
+├── screenshots/           # Evidence of database connection and transformation
+├── sql-scripts/           # (Optional) Any SQL used for table modification
+└── README.md              # Project documentation
