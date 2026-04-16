@@ -3,7 +3,7 @@ layout:         single
 author_profile: true
 toc:            true
 toc_sticky:     true
-toc_label:      "เนื้อหาในหน้านี้"
+toc_label:      "ข้อมูลส่วนตัว"
 ---
 
 # <span id="typewriter"></span>
@@ -17,30 +17,35 @@ toc_label:      "เนื้อหาในหน้านี้"
   });
 
   typewriter
-    .typeString('ยินดีต้อนรับสู่ GitHub ของผม')
+    .typeString('Wichanard Kumsang')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('กำลังประมวลผลข้อมูล... <strong>datadet</strong>')
+    .typeString('I am <strong>Wichanard Kumsang</strong>')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('I am <strong>AI Student & Developer</strong>')
+    .typeString('I LOVE MY JOB')
     .pauseFor(2500)
     .start();
 </script>
 
 ---
 
-### 📊 รายละเอียดข้อมูลเชิงลึก
-คุณสามารถเข้าชมข้อมูลที่รวบรวมไว้ได้ที่นี่:
+### 👤 ข้อมูลส่วนตัว (About Me)
+* **Name:** Wichanard Kumsang (First)
+* **Birthday:** 24/02/2548
+* **Status:** AI Student & Developer
 
+---
+
+### 🖼️ รูปภาพโปรเจกต์/โปรไฟล์
+![My Photo](PIC/1.jpg){: .align-center}
+
+---
+
+### 📊 รายละเอียดข้อมูลเชิงลึก
 [เข้าสู่โฟลเดอร์ datadet](datadet/){: .btn .btn--info .btn--large .btn--pill}
 
 ---
 
 ## 🛠 เนื้อหาโปรเจกต์
-(พิมพ์เนื้อหาของคุณต่อตรงนี้ได้เลยครับ สารบัญด้านขวาจะสร้างให้อัตโนมัติจากหัวข้อที่คุณพิมพ์)
-# Wichanard Kumsang
-# Nickname First
-# Brithday 24/02/2548
-# I LOVE MY JOB
-![P](PIC/1.jpg!d)
+(พิมพ์เนื้อหาเพิ่มเติมต่อตรงนี้ได้เลยครับ)
