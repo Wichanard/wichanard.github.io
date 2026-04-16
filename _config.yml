@@ -1,21 +1,17 @@
-theme: mmistakes/minimal-mistakes
-# 1. เลือกโทนสีที่ดูสะอาดตา (แนะนำ 'air' หรือ 'contrast')
-minimal_mistakes_skin: "air" 
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air" # หรือเปลี่ยนเป็น "dark", "aqua", "neon" ตามชอบ
 
-# 2. เปิดใช้งานสารบัญ (Table of Contents) ให้อยู่ด้านขวาอัตโนมัติ
-toc: true
-toc_sticky: true
-
-# 3. จัดระเบียบ Sidebar (Info) ให้ครบถ้วน
+# ข้อมูล Sidebar (รูปโปรไฟล์ข้างๆ)
 author:
-  name   : "WICHANARD KUMSANG"
-  avatar : "https://c.pxhere.com/photos/e1/7a/gorilla_silverback_animal_silvery_grey_imposing_powerful_fur_mammal-1334416.jpg!d"
-  bio    : "นักพัฒนา | AI Student | Enthusiast"
-  location: "Bangkok, Thailand"
+  name   : "Wichanard Kumsang"
+  avatar : "/PIC/1.jpg" # เช็คว่าชื่อไฟล์ในโฟลเดอร์ PIC ตรงกันเป๊ะไหม
+  bio    : "AI Student & Developer"
+  location: "Thailand"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-username"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-profile"
+      url: "https://github.com/Wichanard"
+
+# ตั้งค่าพื้นฐาน
+include: ["_pages", "_posts", "_projects"]
+markdown: kramdown
