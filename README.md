@@ -1,9 +1,9 @@
 ---
-layout:         single
+layout: single
 author_profile: true
-toc:            true
-toc_sticky:     true
-toc_label:      "ข้อมูลส่วนตัว"
+toc: true
+toc_sticky: true
+toc_label: "ข้อมูลส่วนตัว"
 ---
 
 # <span id="typewriter"></span>
@@ -20,9 +20,6 @@ toc_label:      "ข้อมูลส่วนตัว"
     .typeString('Wichanard Kumsang')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('I am <strong>Wichanard Kumsang</strong>')
-    .pauseFor(1000)
-    .deleteAll()
     .typeString('I LOVE MY JOB')
     .pauseFor(2500)
     .start();
@@ -37,7 +34,7 @@ toc_label:      "ข้อมูลส่วนตัว"
 
 ---
 
-### 🖼️ รูปภาพโปรเจกต์/โปรไฟล์
+### 🖼️ รูปภาพโปรเจกต์
 ![My Photo](PIC/1.jpg){: .align-center}
 
 ---
@@ -48,4 +45,4 @@ toc_label:      "ข้อมูลส่วนตัว"
 ---
 
 ## 🛠 เนื้อหาโปรเจกต์
-(พิมพ์เนื้อหาเพิ่มเติมต่อตรงนี้ได้เลยครับ)
+พิมพ์เนื้อหาของคุณต่อตรงนี้ได้เลยครับ
