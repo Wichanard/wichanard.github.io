@@ -1,56 +1,57 @@
-# Live Lab: Implement Data Type Selection and Conversion
+📊 Live Lab: Data Type Selection and Conversion
+CompTIA Data+ (DA0-001) Implementation
+📝 Project Overview (ภาพรวมโครงการ)
+This project focuses on the foundational skills of a Data Analyst: ensuring data consistency and integrity across multiple platforms. In this lab, I performed end-to-end data type management—starting from the SQL source level to the transformation layer in Power Query.
 
-## 📋 Overview
-This project demonstrates the fundamental skills of a Data Analyst in managing, profiling, and transforming data across different environments. The lab focuses on ensuring data integrity through correct data type identification and conversion, which is a critical step in the Data Acquisition and Preparation phase.
+โปรเจกต์นี้เน้นการฝึกฝนทักษะพื้นฐานที่สำคัญที่สุดของ Data Analyst คือการทำให้ข้อมูลมีความถูกต้องและสอดคล้องกันในทุกแพลตฟอร์ม โดยผมได้ดำเนินการจัดการประเภทข้อมูลตั้งแต่ระดับต้นทาง (SQL Database) ไปจนถึงขั้นตอนการแปลงข้อมูล (Transformation) ใน Power Query
 
-The mission involves working with **SQL Databases** for initial data review and structural modification, followed by advanced data transformation using **Power Query**.
+🎯 Key Objectives & Deliverables (เป้าหมายและสิ่งที่มีการส่งมอบ)
+I successfully completed all mission requirements with 100% accuracy:
 
-## 🎯 Objectives (CompTIA Data+ Mapping)
-This lab is aligned with the following exam objectives:
-- **1.2 Identify types of data sources:** Understanding relational databases and how data is stored.
-- **2.1 Given a scenario, use data acquisition methods:** Connecting to data sources and preparing data for analysis.
+Database Connectivity: Established a seamless connection to the SQL Server.
 
-## 🛠️ Tech Stack
-- **Database Management:** SQL Server / Microsoft Access (Design View)
-- **ETL & Transformation:** Power Query (Excel/Power BI)
-- **Documentation:** Markdown
+Source Schema Tuning: Modified table structures in Design View to enforce data integrity.
 
----
+ETL Pipeline: Utilized Power Query to clean and convert data types for analytical readiness.
 
-## 🚀 Mission Workflow
+ภารกิจที่ทำสำเร็จ (คะแนนเต็ม):
 
-### 1. Database Connection & Review
-Connecting to the SQL database to understand the schema and underlying data structures. This phase involves:
-- Establishing a secure connection to the data source.
-- Previewing table contents to identify potential data type mismatches.
-- Documenting the initial state of the data profiling.
+การเชื่อมต่อฐานข้อมูล: เชื่อมต่อกับ SQL Database และตรวจสอบ Schema ของตารางได้อย่างถูกต้อง
 
-### 2. Schema Modification (Design View)
-Modifying the table structure at the source level to ensure data consistency.
-- **Task:** Transitioning to "Design View" to adjust field properties.
-- **Action:** Changing data types (e.g., from Text to Numeric or Date/Time) to optimize storage and query performance.
-- **Outcome:** A refined database schema that strictly enforces data integrity.
+การปรับปรุงโครงสร้าง: แก้ไขตารางผ่าน Design View เพื่อให้มั่นใจว่า Data Type เหมาะสมกับข้อมูลจริง
 
+กระบวนการ ETL: ใช้ Power Query ในการแปลงประเภทข้อมูลให้พร้อมสำหรับการวิเคราะห์ (Analytical Ready)
 
+🛠️ Technical Implementation (ขั้นตอนการปฏิบัติ)
+1. SQL Data Profiling & Design
+Action: Reviewed existing tables and identified type mismatches.
 
-### 3. Data Transformation with Power Query
-Using Power Query as an ETL tool to further refine the data for reporting and analytics.
-- **Type Conversion:** Converting imported columns into appropriate formats (Currency, Percentage, Locale-based Dates).
-- **Data Profiling:** Using the "Column Quality" and "Column Distribution" features to identify errors or empty values resulting from incorrect type casting.
-- **Automation:** Creating a repeatable transformation pipeline that ensures future data imports follow the same logic.
+Result: Updated field properties (e.g., changing VARCHAR to INT where appropriate) to optimize storage and query performance.
 
+ภาษาไทย: ตรวจสอบข้อมูลใน SQL และปรับปรุงประเภทข้อมูลใน Design View ให้เหมาะสม เช่น การเปลี่ยนข้อความให้เป็นตัวเลขเพื่อใช้ในการคำนวณ ช่วยเพิ่มประสิทธิภาพในการ Query
 
+2. Transformation via Power Query
+Action: Connected the SQL source to Power Query and performed data type casting.
 
----
+Result: Handled date/time formatting and decimal precision to ensure no "Data Loss" occurred during migration.
 
-## 💡 Key Learnings & Insights
+ภาษาไทย: เชื่อมต่อ SQL เข้ากับ Power Query เพื่อแปลงข้อมูล (Data Casting) เช่น การจัดการรูปแบบวันที่และความละเอียดของทศนิยม เพื่อให้ข้อมูลแม่นยำ 100%
 
-* **Data Integrity:** Correct data types prevent calculation errors (e.g., trying to sum a "String" version of a number).
-* **Storage Optimization:** Choosing the right data type (e.g., Integer vs. Float) can significantly reduce the database footprint.
-* **Interoperability:** Understanding how different applications (SQL vs. Power Query) interpret the same data prevents loss of information during migration.
+✅ Achievements (สิ่งที่ได้รับจากโปรเจกต์นี้)
+Score: 100/100 (Completed with excellence)
 
-## 📁 Repository Structure
-```text
-├── screenshots/           # Evidence of database connection and transformation
-├── sql-scripts/           # (Optional) Any SQL used for table modification
-└── README.md              # Project documentation
+CompTIA Data+ Mastery: Demonstrated proficiency in objective 1.2 (Data Sources) and 2.1 (Data Acquisition).
+
+Zero-Error Transformation: Achieved a clean dataset with no conversion errors or null values generated by type mismatches.
+
+Professional Documentation: Created a clear mapping between source data and target formats.
+
+สรุปสิ่งที่ได้รับ:
+
+ผลการประเมิน: ทำภารกิจสำเร็จครบถ้วน ได้คะแนนเต็ม
+
+ความเชี่ยวชาญ: เข้าใจหลักการของ CompTIA Data+ ในเรื่องการระบุแหล่งที่มาและการดึงข้อมูลอย่างมืออาชีพ
+
+ความแม่นยำ: สามารถแปลงข้อมูลได้โดยไม่มี Error หรือข้อมูลสูญหาย (Zero-Error)
+
+ทักษะการวิเคราะห์: รู้วิธีการเลือกใช้ Data Type ให้เหมาะสมกับความต้องการของธุรกิจ
