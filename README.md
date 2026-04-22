@@ -1,23 +1,3 @@
-# <span id="typewriter"></span>
-
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script>
-  var app = document.getElementById('typewriter');
-  var typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 60,
-  });
-
-  typewriter
-    .typeString('Wichanard Kumsang')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('I LOVE MY JOB')
-    .pauseFor(2500)
-    .start();
-</script>
-
----
 
 ### 👤 ข้อมูลส่วนตัว (About Me)
 * **Name:** Wichanard Kumsang (First)
