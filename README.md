@@ -34,6 +34,24 @@ toc_label: "ข้อมูลส่วนตัว"
 
 ---
 
+## 📂 My Data Analysis Labs 
+*(CompTIA Data+ Training Success)*
+
+### 1️⃣ Implement Data Type Selection and Conversion
+**Mission:** จัดการประเภทข้อมูลใน SQL และ Power Query เพื่อความแม่นยำ 100%
+* ✅ **Result:** สรุปโครงสร้างข้อมูลได้ถูกต้องตามมาตรฐานองค์กร
+* [คลิกเพื่อดูรายละเอียดโปรเจกต์](#) ### 2️⃣ Filter Dashboard Data & Interactive Reporting
+**Mission:** สร้างระบบ Dashboard ที่โต้ตอบได้ (Interactive) พร้อมตัวกรองหลายระดับ
+* ✅ **Result:** Dashboard ใช้งานง่าย ปลอดภัย และแสดงผล Matrix ได้สมบูรณ์
+* [คลิกเพื่อดูรายละเอียดโปรเจกต์](#)
+
+---
+
+### 🛠️ Skill Stack
+* **Languages:** SQL, Python
+* **Tools:** Power BI, Excel (Power Query), SSMS
+* **Specialties:** Data Profiling, ETL, Visualization
+
 ### 🖼️ รูปภาพโปรเจกต์
 ![My Photo](PIC/1.jpg){: .align-center}
 
