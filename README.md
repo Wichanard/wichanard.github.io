@@ -8,7 +8,7 @@
 
 ### 📊 Lab Summaries
 
-* [**11.1.6 Lab: Data Type Selection and Conversion**](#lab-1) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
+* [** 1.4.11 Data Type Selection and Conversion**](#lab-1) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
 * [**16.2.4 Lab: Filter Dashboard Data & Interactive Reporting**](#lab-2) - การสร้าง Dashboard ที่โต้ตอบได้พร้อมระบบกรองข้อมูลหลายระดับตามมาตรฐาน CompTIA Data+
 
 ---
