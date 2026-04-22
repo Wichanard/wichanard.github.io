@@ -1,17 +1,9 @@
----
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
-toc_label: "ข้อมูลส่วนตัว"
----
-
 # <span id="typewriter"></span>
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script>
   var app = document.getElementById('typewriter');
-  var typewriter = new new Typewriter(app, {
+  var typewriter = new Typewriter(app, {
     loop: true,
     delay: 60,
   });
