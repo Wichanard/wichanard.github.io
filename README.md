@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 toc_label: "ข้อมูลส่วนตัว"
 ---
-
+---
 # <span id="typewriter"></span>
 
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -24,7 +24,7 @@ toc_label: "ข้อมูลส่วนตัว"
     .pauseFor(2500)
     .start();
 </script>
-
+---
 ---
 
 ### 👤 ข้อมูลส่วนตัว (About Me)
