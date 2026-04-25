@@ -1,23 +1,81 @@
+# <div align="center">
+  <h1 style="font-family: 'Space Mono', monospace; font-size: 3rem; background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: glitch 2s infinite;">
+    Hi there, I’m Pongpanot (Oscar) 🧑‍🚀
+  </h1>
+  <p style="font-family: 'Montserrat', sans-serif; font-size: 1.2rem; color: #a1a1a1;">
+    Machine Learning Specialist | Computer Vision Developer
+  </p>
+</div>
+
+<br/>
+
+# <p align="center">
+  <a href="#about">
+    <img src="https://image-component-v2.github.io/static/images/logo_ai_hero.png?theme=dark" alt="AI Hero Banner" width="90%" style="border-radius: 15px; border: 2px solid #00f2fe; box-shadow: 0 0 20px #00f2fe60;">
+  </a>
+</p>
+
+<br/>**การอัปเกรดหน้าโปรไฟล์ GitHub ให้ดูเท่และทันสมัยสุดๆ:**
+
+เราจะทิ้งความรู้สึกแบบ "โบราณ" ไปโดยการนำเสนอโครงสร้างใหม่ที่เน้นความคมชัด สีสันที่ตัดกันอย่างลงตัว และการจัดวางที่ดูเป็นมืออาชีพมากขึ้น
+
+คุณสามารถคัดลอก Code Markdown นี้ไปวางในไฟล์ `README.md` ของคุณได้เลย:
+
 ---
-layout: single
-classes: wide
+
+### **โค้ด Markdown สำหรับหน้าโปรไฟล์ใหม่:**
+
+```markdown
+<div align="center">
+  <h1 style="font-family: 'Space Mono', monospace; font-size: 2.5rem; background: linear-gradient(135deg, #FFDD54 0%, #FF9F43 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 2px solid #FFDD54; padding-bottom: 10px;">
+    🚀 สวัสดีครับ! ผม Pongpanot (Oscar) เองครับ
+  </h1>
+  <p style="color: #a1a1a1; font-style: italic;">นักพัฒนา ML และ Computer Vision ที่กำลังสนุกกับการสร้างสรรค์สิ่งใหม่ๆ</p>
+</div>
+
+<br/>
+
+<p align="center">
+  <a href="#about">
+    <img src="[https://image-component-v2.github.io/static/images/logo_ai_hero_blue.png?theme=dark](https://image-component-v2.github.io/static/images/logo_ai_hero_blue.png?theme=dark)" alt="AI Hero Banner" width="90%" style="border-radius: 10px; border: 2px solid #00f2fe; box-shadow: 0 0 15px #00f2fe50;">
+  </a>
+</p>
+
+<br/>
+
+<div id="about"></div>
+
+# ## <img src="[https://raw.githubusercontent.com/MartinVeron/MartinVeron/master/assets/astronaut.gif](https://raw.githubusercontent.com/MartinVeron/MartinVeron/master/assets/astronaut.gif)" width="30px"> **เกี่ยวกับการพัฒนา AI**
+
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td style="width: 300px; text-align: center;">
+        <img src="[https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.png](https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.png)" width="250px" style="border-radius: 15px;">
+      </td>
+      <td style="vertical-align: top;">
+        <h3 style="font-family: 'Courier New', monospace; color: #00f2fe;">$ Artificial Intelligence & Machine Learning</h3>
+        <ul style="color: #e0e0e0; line-height: 1.6;">
+          <li>🤖 <b>เชี่ยวชาญด้าน</b>: Computer Vision (Object Detection, Segmentation) และ NLP</li>
+          <li>🛠️ <b>เครื่องมือหลัก</b>: Python, PyTorch, TensorFlow, OpenCV</li>
+          <li>📊 <b>สนใจ</b>: การนำ AI มาประยุกต์ใช้ในการแก้ปัญหาในชีวิตจริง</li>
+        </ul>
+        <br/>
+        <a href="#projects">
+          <img src="[https://img.shields.io/badge/ด](https://img.shields.io/badge/ด)ูผลงานของผม-%E2%86%92-00f2fe?style=for-the-badge&logo=github&logoColor=black" alt="View Projects">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
-<div class="rgb-slider-container">
-  
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="https://image.lexica.art/full_jpg/09a0b12e-848e-4340-b63e-10821c326d9c" class="slide-img">
-    <div class="text">🦾 Unit 01: The Hunter (Red Fury)</div>
-  </div>
+### **ความแตกต่างจากอันเดิมคือ:**
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="https://image.lexica.art/full_jpg/91d74d1a-299f-4315-9c9d-d8f99778278f" class="slide-img">
-    <div class="text">📡 Unit 02: The Analyser (Cyber Blue)</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="https://image.lexica.art/full_jpg/a8c660f7-5b6d-4952-b883-7c706d863f83" class="slide-img">
-    <div class="text">🔮 Unit 03: The Architect (Quantum Purple)http://googleusercontent.com/image_generation_content/0
+1.  **Typography (ตัวอักษร):** เราใช้ `font-family: 'Space Mono'` และ `'Courier New'` เพื่อให้ได้ความรู้สึกแบบ Code และ Tech พร้อมการใช้ Gradient (การไล่สี) ในหัวข้อหลัก ทำให้ดูมีมิติและทันสมัยขึ้นมาก
+2.  **Visual Elements (องค์ประกอบภาพ):**
+    * **AI Banner:** จากกล่องสีฟ้าธรรมดา เราใช้แบนเนอร์ที่มีแสง Glow (สะท้อนแสง) รอบๆ และมีเส้นขอบสี Cyan ทำให้ดู Cyberpunk และ "เท่" ขึ้นทันที
+    * **About Section:** แทนที่จะวางรูปธรรมดา เราใช้การจัดวางแบบ Grid (ตารางที่ไม่เห็นเส้นขอบ) เพื่อวางรูปภาพและข้อความคู่กันอย่างมีระเบียบ และเพิ่มไอคอน GIF เล็กน้อยเพื่อให้หน้าเว็บดูไม่นิ่งจนเกินไป
+3.  **Color Palette:** เราเน้นสีดำเป็นพื้นหลังเพื่อความคมชัด ตัดกับสีเหลืองทอง (สำหรับหัวข้อหลัก) และสีฟ้า Cyan (สำหรับหัวข้อรองและลิงก์) ซึ่งเป็นคู่สีที่ดู Tech และล้ำสมัย
+4.  **Icons และ Badges:** ใช้ GitHub Badges ในการสร้างปุ่ม Call to Action (เช่น ดูผลงาน) แทนที่จะเป็นแค่ลิงก์ข้อความ ทำให้หน้าเว็บดู Interactive และน่าคลิกมากขึ้น
