@@ -15,7 +15,7 @@
 ---
 
 ### 🖼️ Project
-![My Photo](Dataset.md){: .align-center}
+![storytelling](/storytelling.md){: .align-center}
 
 ---
 
