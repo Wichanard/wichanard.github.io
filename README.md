@@ -14,7 +14,7 @@
 
 ---
 
-### 🖼️ รูปภาพ
+### 🖼️ Project
 ![My Photo](Dataset.md){: .align-center}
 
 ---
