@@ -1,48 +1,47 @@
-# --- THEME CORE ---
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "neon"
+# 💎 Executive Summary: Trade Intelligence 2026
+> **Configuration Profile:** `analysis-v1.0.4` | **Last Processed:** 25 เมษายน 2569
 
-# --- RGB ROBOT INJECTION ---
-title: "WICHANARD // UNIT-01"
-name: "Wichanard Kumsang"
-description: >-
-  <style>
-  body { background-color: #000 !important; }
-  .masthead, .page__footer { 
-  border-top: 3px solid; border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, #f00, #0f0, #00f, #f00) 1;
-  animation: rgb-move 3s linear infinite;
-  }
-  @keyframes rgb-move { 0% { filter: hue-rotate(0deg); } 100% { filter: hue-rotate(360deg); } }
-  .sidebar { 
-  background: rgba(0, 255, 0, 0.05) !important; 
-  border: 1px solid #0f0 !important; 
-  box-shadow: 0 0 10px #0f05;
-  }
-  </style>
-  <div style='color: #0f0; font-family: monospace;'>[SYSTEM ONLINE: RGB PROTOCOL ACTIVE]</div>
+---
 
-# --- AUTHOR SETTINGS ---
-author:
-  name   : "WICHANARD KUMSANG"
-  avatar : "/PIC/1.jpg"
-  bio    : "🤖 AI STUDENT & DEVELOPER"
-  location: "THAILAND NODE"
-  links:
-    - label: "GITHUB"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Wichanard"
+### 📥 System Input (Metadata)
+| Parameter | Value |
+| :--- | :--- |
+| **Data Source** | Open Government Data of Thailand |
+| **Department** | Office of the Permanent Secretary, Ministry of Finance |
+| **System** | Fiscal Economy Statistical System |
+| **Temporal Range** | 2014 - 2026 (Monthly Data) |
+| **Data Volume** | ~150 Rows (Current) |
 
-# --- LAYOUT SETTINGS ---
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: "single"
-      classes: "wide"
-      author_profile: true
+---
 
-# --- ENGINE ---
-markdown: kramdown
-highlighter: rouge
+### 🧠 Logic & Insights Extraction
+*สรุปผลการประมวลผลจากไฟล์ CSV ล่าสุด (ม.ค. - ก.พ. 2569)*
+
+#### 🟢 Positive Signal
+- **Trade Balance Improvement:** พบอัตราส่วนการขาดดุล (Balance %) ปรับตัวดีขึ้นจาก **-9.47%** เป็น **-8.78%** แม้ปริมาณการค้าโดยรวมจะลดลง
+- **Exchange Stability:** อัตราแลกเปลี่ยนคงที่อยู่ในกรอบ **31.41 - 31.47 THB/USD** ช่วยให้การวิเคราะห์มูลค่านำเข้ามีความเสถียร
+
+#### 🔴 Observed Trend
+- **Trade Volume Contraction:** มูลค่าการนำเข้าและส่งออกลดลงเฉลี่ย **7.2%** (MoM) ซึ่งเป็นแนวโน้มปกติของช่วงต้นปี
+- **Import Dominance:** มูลค่านำเข้า (1.01-1.09 Trillion) ยังคงสูงกว่าส่งออก แสดงถึงความต้องการวัตถุดิบต่อเนื่อง
+
+---
+
+### 🖼️ Visualization Output
+<p align="center">
+  <img src="https://img.icons8.com/color/512/analytics.png" width="120" />
+  <br>
+  <i>[ Preview ของ Dashboard ที่ถูกสร้างจากไฟล์ Config ]</i>
+</p>
+
+---
+
+### ⚙️ Backend Config Specification
+```yaml
+analysis_module:
+  engine: "Pandas/Python"
+  threshold: 0.05
+  visuals: ["LineChart", "MetricCard"]
+  features:
+    - name: "Import Rate Monitoring"
+    - name: "Trade Balance Calculation"
