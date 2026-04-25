@@ -6,6 +6,8 @@
 
 ## 📚 Assignments & Labs
 
+* สรุปมูลค่าการนำเข้า-ส่งออก.md
+
 ### 📊 Lab Summaries
 
 * [1.4.11 Data Type Selection and Conversion](./1.4.11.md) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
