@@ -1,9 +1,17 @@
-title: Wichanard Kumsang
-description: Exploring the world of AI & Embedded Systems
-theme: jekyll-theme-midnight
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "neon" # เปลี่ยนจาก air เป็น neon จะดู Tech ขึ้นทันที
 
-# ตั้งค่าการแสดงผล
-show_downloads: true
-google_analytics: # ใส่ ID ถ้ามี
+# ข้อมูล Sidebar 
+author:
+  name    : "Wichanard Kumsang"
+  avatar  : "/PIC/1.jpg"
+  bio     : "AI Student & Developer"
+  location: "Thailand"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Wichanard"
 
+# ตั้งค่าพื้นฐาน
+include: ["_pages", "_posts", "_projects"]
 markdown: kramdown
