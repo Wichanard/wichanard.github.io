@@ -1,14 +1,45 @@
+# --- THEME CORE ---
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "neon" # ตัวนี้จะเปลี่ยนปุ่มและลิงก์เป็นสีเขียว/ชมพูเรืองแสง
+minimal_mistakes_skin: "neon"
 
-# ข้อมูลหุ่นยนต์
+# --- RGB ROBOT INJECTION (ใส่ Markdown/HTML ในนี้เพื่อเปลี่ยนทั้งหน้า) ---
+title: "WICHANARD // UNIT-01"
+name: "Wichanard Kumsang"
+description: >-
+  <style>
+    body { background-color: #000 !important; cursor: crosshair; }
+    /* สร้างไฟ RGB วิ่งรอบหน้าจอ */
+    .masthead, .page__footer { 
+      border-top: 3px solid; border-bottom: 3px solid;
+      border-image: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff0000) 1;
+      animation: rgb-move 3s linear infinite;
+    }
+    @keyframes rgb-move { 0% { filter: hue-rotate(0deg); } 100% { filter: hue-rotate(360deg); } }
+    
+    /* ปรับแต่ง Sidebar ให้ดูเป็นหุ่นยนต์ */
+    .sidebar { 
+      background: rgba(0, 255, 0, 0.05); 
+      border: 1px solid #0f0; 
+      padding: 10px; 
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0f05;
+    }
+    .author__name, .author__bio { font-family: 'Courier New', monospace !important; color: #0f0 !important; }
+  </style>
+  <div style="color: #0f0; font-family: monospace;">[SYSTEM ONLINE: OPTIMIZING AI NODE]</div>
+
+# --- AUTHOR SETTINGS ---
 author:
-  name   : "WICHANARD [AI-UNIT]"
+  name   : "WICHANARD KUMSANG"
   avatar : "/PIC/1.jpg"
-  bio    : "🤖 **STATUS:** <span style='color: #00ff00;'>ONLINE</span>"
+  bio    : "🤖 AI STUDENT & DEVELOPER<br><span style='color:#0f0; text-shadow: 0 0 5px #0f0;'>● RGB PROTOCOL ACTIVE</span>"
   location: "THAILAND NODE"
-  
-# บังคับให้หน้าเว็บกว้างขึ้น (เพื่อให้ใส่สไลด์แล้วสวย)
+  links:
+    - label: "DECODE GITHUB"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Wichanard"
+
+# --- LAYOUT SETTINGS ---
 defaults:
   - scope:
       path: ""
@@ -16,19 +47,11 @@ defaults:
     values:
       layout: single
       classes: wide
-
-# 4. ข้อมูลพื้นฐาน
-include: ["_pages", "_posts", "_projects"]
-markdown: kramdown
-highlighter: rouge # ตัวเน้นสี Code ให้ดูเป็น Hacker
-
-# 5. สไลด์ RGB (จะไปเรียกใช้ในหน้า Markdown)
-# เราจะตั้งค่าให้อ่านไฟล์จากโฟลเดอร์โครงการได้แม่นยำขึ้น
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
       author_profile: true
-      classes: wide # ทำให้หน้ากว้างขึ้น ดูเป็นหน้าจอ Monitor เท่ๆ
+      header:
+        overlay_image: https://image.lexica.art/full_jpg/09a0b12e-848e-4340-b63e-10821c326d9c
+        overlay_filter: 0.5
+
+# --- ENGINE ---
+markdown: kramdown
+highlighter: rouge
