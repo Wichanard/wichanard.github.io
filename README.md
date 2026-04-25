@@ -15,8 +15,8 @@
 
 ---
 
-### 🖼️ รูปภาพโปรเจกต์
-![My Photo](PIC/1.jpg){: .align-center}
+### 🖼️ รูปภาพ
+![My Photo](Dataset.md){: .align-center}
 
 ---
 
