@@ -10,7 +10,7 @@
 ### 📊 Lab Summaries
 
 * [1.4.11 Data Type Selection and Conversion](./Data-Type-Selection-and-Conversion.md.md) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
-* [8.1.4 Filter Dashboard Data & Interactive Reporting](./8.1.4.md) - การสร้าง Dashboard ที่โต้ตอบได้พร้อมระบบกรองข้อมูลหลายระดับตามมาตรฐาน CompTIA Data+
+* [8.1.4 Filter Dashboard Data & Interactive Reporting](./Filter-Dashboard-Data-and-Interactive-Reporting.md) - การสร้าง Dashboard ที่โต้ตอบได้พร้อมระบบกรองข้อมูลหลายระดับตามมาตรฐาน CompTIA Data+
 
 ---
 
