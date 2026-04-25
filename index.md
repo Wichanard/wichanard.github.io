@@ -4,39 +4,47 @@ author_profile: true
 ---
 
 <style>
-  /* เอฟเฟกต์ไฟ RGB วิ่งรอบกรอบ */
-  .robot-frame {
-    border: 4px solid;
-    border-image: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #ff00ff, #ff0000) 1;
-    animation: rgb-glow 3s linear infinite;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
+  /* สร้างกรอบไฟ RGB วิ่งรอบๆ */
+  .rgb-box {
+    position: relative;
+    padding: 25px;
+    background: #000;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #00f2fe;
+    box-shadow: 0 0 20px #00f2fe50;
+    animation: rgb-shadow 5s infinite linear;
   }
 
-  @keyframes rgb-glow {
-    0% { filter: hue-rotate(0deg); box-shadow: 0 0 15px #ff0000; }
-    100% { filter: hue-rotate(360deg); box-shadow: 0 0 15px #ff0000; }
+  /* แอนิเมชันไฟเรืองแสงรอบกล่อง */
+  @keyframes rgb-shadow {
+    0% { border-color: #ff0000; box-shadow: 0 0 20px #ff000050; }
+    33% { border-color: #00ff00; box-shadow: 0 0 20px #00ff0050; }
+    66% { border-color: #0000ff; box-shadow: 0 0 20px #0000ff50; }
+    100% { border-color: #ff0000; box-shadow: 0 0 20px #ff000050; }
   }
 
-  .glitch-text {
-    color: #00ff00;
-    text-shadow: 2px 2px #ff00ff;
+  .robot-text {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
   }
 </style>
 
-<div class="robot-frame">
-  <h2 class="glitch-text"> > INITIALIZING AI_PROTOCOL...</h2>
+<div class="rgb-box">
+  <h1 class="robot-text"> > INITIALIZING ROBOTIC_INTERFACE v2.0...</h1>
   
-  ### 🦾 CURRENT MISSION:
-  - **Core:** Machine Learning & Metaheuristics (VNS, PSO, GA)
-  - **Hardware:** ESP32 / ESP8266 Prototyping
-  - **Status:** Exploring Large Language Models (LLMs)
+  ![Robot Banner](https://image.lexica.art/full_jpg/09a0b12e-848e-4340-b63e-10821c326d9c)
   
+  <br>
+
+  ### 🦾 SYSTEM CORE CAPABILITIES
+  * **ML OPTIMIZATION:** VNS, PSO, Genetic Algorithms
+  * **EMBEDDED:** ESP32 Node Control
+  * **SENTIMENT:** Aspect-Based Analysis (ABSA)
+
   ---
   
-  ### ⚡ SYSTEM STATS (RGB MODE)
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Wichanard&show_icons=true&theme=tokyonight&bg_color=00000000&title_color=00ff00&text_color=ffffff)
+  ### 📊 NETWORK ACTIVITY STATS
+  ![Stats](https://github-readme-stats.vercel.app/api?username=Wichanard&show_icons=true&theme=neon&hide_border=true)
 </div>
