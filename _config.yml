@@ -1,47 +1,37 @@
-# 👋 Hello World! I'm Wichanard Kumsang (First)
+# 1. เลือก Skin "Neon" เป็นฐาน เพราะให้พื้นหลังมืดสนิทและสีฟอนต์ที่ตัดกัน
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "neon" 
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZ4eHByZzR3eHByZzR3eHByZzR3eHByZzR3eHByZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qgQUggAC3Pfv687qPC/giphy.gif" width="200">
-  
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=AI+Student+%26+Developer;Machine+Learning+Enthusiast;Data+Analyst+in+Training" alt="Typing SVG" />
-  </h1>
-</div>
+# 2. ข้อมูล Sidebar (เน้นความเป็น Robot Tech)
+author:
+  name   : "WICHANARD [BOT-01]"
+  avatar : "/PIC/1.jpg" # แนะนำให้ใช้รูปที่มีแสงไฟนีออน หรือรูปหุ่นยนต์
+  bio    : "🤖 **AI STUDENT & DEVELOPER** <br> <span style='color: #00ff00;'>● ONLINE</span>"
+  location: "TH-NETWORK-NODE"
+  links:
+    - label: "DECODING GITHUB"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Wichanard"
 
----
+# 3. UI Enhancement (ทำให้ดูเป็นหน้าจอ Interface หุ่นยนต์)
+title: "WICHANARD // PROTOCOL"
+subtitle: "OPTIMIZING THE FUTURE"
+name: "Wichanard Kumsang"
+description: "Advanced Metaheuristics & AI Research Node"
+url: "https://Wichanard.github.io"
 
-### 👤 ข้อมูลส่วนตัว (About Me)
-- 🎂 **Birthday:** 24/02/2548
-- 🎓 **Status:** AI Student & Developer
-- 📍 **Location:** Thailand 🇹🇭
+# 4. ข้อมูลพื้นฐาน
+include: ["_pages", "_posts", "_projects"]
+markdown: kramdown
+highlighter: rouge # ตัวเน้นสี Code ให้ดูเป็น Hacker
 
----
-
-### 📚 Assignments & Labs
-> การวิเคราะห์ข้อมูลจากแหล่ง **Open Government Data** ของประเทศไทย โดยใช้เครื่องมือหลายอย่างเปรียบเทียบกัน
-
-* [📄 สรุปมูลค่าการนำเข้า-ส่งออก.md](URL_LINK_HERE)
-
----
-
-### 📊 Lab Summaries (CompTIA Data+)
-
-| Project | Description |
-| :--- | :--- |
-| **1.4.11 Data Type Selection** | การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query |
-| **8.1.4 Filter Dashboard** | การสร้าง Interactive Dashboard ตามมาตรฐาน CompTIA Data+ |
-
----
-
-### 🛠️ Tech Stack & Tools
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,mysql,pytorch,tensorflow,streamlit,github,vscode" />
-</p>
-
----
-
-### 📈 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" height="150">
-</p>
+# 5. สไลด์ RGB (จะไปเรียกใช้ในหน้า Markdown)
+# เราจะตั้งค่าให้อ่านไฟล์จากโฟลเดอร์โครงการได้แม่นยำขึ้น
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide # ทำให้หน้ากว้างขึ้น ดูเป็นหน้าจอ Monitor เท่ๆ
