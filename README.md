@@ -5,12 +5,12 @@
 
 ## 📚 Assignments & Labs
 การวิเคราะห์ข้อมูลจากแหล่ง Open Government Data ของประเทศไทย โดยใช้เครื่องมือหลายอย่างเปรียบเทียบกัน
-* [Import-Export-Analysis](.Import-Export-Analysis.md)
+* [Import-Export-Analysis](./Import-Export-Analysis.md)
 
 ### 📊 Lab Summaries
 
-* [Data-Type-Selection-and-Conversion](.Data-Type-Selection-and-Conversion.md) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
-* [Filter-Dashboard-Data-and-Interactive-Reporting](.Filter-Dashboard-Data-and-Interactive-Reporting.md) - การสร้าง Dashboard ที่โต้ตอบได้พร้อมระบบกรองข้อมูลหลายระดับตามมาตรฐาน CompTIA Data+
+* [Data-Type-Selection-and-Conversion](./Data-Type-Selection-and-Conversion.md) - การจัดการประเภทข้อมูลตั้งแต่ระดับ SQL จนถึง Power Query เพื่อความแม่นยำของข้อมูล 100%
+* [Filter-Dashboard-Data-and-Interactive-Reporting](./Filter-Dashboard-Data-and-Interactive-Reporting.md) - การสร้าง Dashboard ที่โต้ตอบได้พร้อมระบบกรองข้อมูลหลายระดับตามมาตรฐาน CompTIA Data+
 
 ---
 
