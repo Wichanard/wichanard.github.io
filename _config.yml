@@ -1,24 +1,21 @@
-# 1. เลือก Skin "Neon" เป็นฐาน เพราะให้พื้นหลังมืดสนิทและสีฟอนต์ที่ตัดกัน
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "neon" 
+minimal_mistakes_skin: "neon" # ตัวนี้จะเปลี่ยนปุ่มและลิงก์เป็นสีเขียว/ชมพูเรืองแสง
 
-# 2. ข้อมูล Sidebar (เน้นความเป็น Robot Tech)
+# ข้อมูลหุ่นยนต์
 author:
-  name   : "WICHANARD [BOT-01]"
-  avatar : "/PIC/1.jpg" # แนะนำให้ใช้รูปที่มีแสงไฟนีออน หรือรูปหุ่นยนต์
-  bio    : "🤖 **AI STUDENT & DEVELOPER** <br> <span style='color: #00ff00;'>● ONLINE</span>"
-  location: "TH-NETWORK-NODE"
-  links:
-    - label: "DECODING GITHUB"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Wichanard"
-
-# 3. UI Enhancement (ทำให้ดูเป็นหน้าจอ Interface หุ่นยนต์)
-title: "WICHANARD // PROTOCOL"
-subtitle: "OPTIMIZING THE FUTURE"
-name: "Wichanard Kumsang"
-description: "Advanced Metaheuristics & AI Research Node"
-url: "https://Wichanard.github.io"
+  name   : "WICHANARD [AI-UNIT]"
+  avatar : "/PIC/1.jpg"
+  bio    : "🤖 **STATUS:** <span style='color: #00ff00;'>ONLINE</span>"
+  location: "THAILAND NODE"
+  
+# บังคับให้หน้าเว็บกว้างขึ้น (เพื่อให้ใส่สไลด์แล้วสวย)
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
 
 # 4. ข้อมูลพื้นฐาน
 include: ["_pages", "_posts", "_projects"]
