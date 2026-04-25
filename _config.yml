@@ -1,17 +1,9 @@
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" # หรือเปลี่ยนเป็น "dark", "aqua", "neon" ตามชอบ
+title: Wichanard Kumsang
+description: Exploring the world of AI & Embedded Systems
+theme: jekyll-theme-midnight
 
-# ข้อมูล Sidebar (รูปโปรไฟล์ข้างๆ)
-author:
-  name   : "Wichanard Kumsang"
-  avatar : "/PIC/1.jpg" # เช็คว่าชื่อไฟล์ในโฟลเดอร์ PIC ตรงกันเป๊ะไหม
-  bio    : "AI Student & Developer"
-  location: "Thailand"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Wichanard"
+# ตั้งค่าการแสดงผล
+show_downloads: true
+google_analytics: # ใส่ ID ถ้ามี
 
-# ตั้งค่าพื้นฐาน
-include: ["_pages", "_posts", "_projects"]
 markdown: kramdown
