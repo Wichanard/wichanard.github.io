@@ -5,7 +5,7 @@
 * **Status:** AI Student & Developer
 
 ## 📚 Assignments & Labs
-
+การวิเคราะห์ข้อมูลจากแหล่ง Open Government Data ของประเทศไทย โดยใช้เครื่องมือหลายอย่างเปรียบเทียบกัน
 * [สรุปมูลค่าการนำเข้า-ส่งออก.md](./สรุปมูลค่าการนำเข้า-ส่งออก.md)
 
 ### 📊 Lab Summaries
