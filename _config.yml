@@ -1,17 +1,13 @@
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "neon" # เปลี่ยนจาก air เป็น neon จะดู Tech ขึ้นทันที
+title: Wichanard Kumsang
+description: AI Student & Developer | Specialize in Machine Learning & Metaheuristics
+theme: jekyll-theme-hacker
 
-# ข้อมูล Sidebar 
+# ข้อมูลผู้พัฒนา
 author:
-  name    : "Wichanard Kumsang"
-  avatar  : "/PIC/1.jpg"
-  bio     : "AI Student & Developer"
-  location: "Thailand"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Wichanard"
+  name: "Wichanard Kumsang"
+  bio: "Researching on VNS, ACO, and PSO algorithms."
 
-# ตั้งค่าพื้นฐาน
-include: ["_pages", "_posts", "_projects"]
+# เพิ่มลิงก์ GitHub อัตโนมัติ
+github_username: Wichanard
+
 markdown: kramdown
