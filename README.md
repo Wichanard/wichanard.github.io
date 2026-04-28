@@ -15,7 +15,7 @@
 ---
 
 ### 🖼️ Project
-![storytelling](/storytelling.md){: .align-center}
+* [storytelling](/storytelling.md)
 
 ---
 
