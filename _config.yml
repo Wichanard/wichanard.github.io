@@ -27,8 +27,9 @@ show_downloads: false
 show_description: true
 
 theme: jekyll-theme-minimal
-title: "Trade Intelligence 2026"
+title: " Wichanard "
 description: 
+
 
 # ข้อมูลสำหรับแสดงผล (Metadata)
 data_source: "Open Government Data of Thailand"
