@@ -35,7 +35,8 @@
 
 ### 📊 Visualization Overview
 #### Trend Analysis (Import vs Export)
-![Dashboard Trend](https://your-image-link-here.com/dashboard-preview.png)
+<img width="788" height="470" alt="image" src="https://github.com/user-attachments/assets/0ceede75-8fab-42ac-939d-9aac4d7643cb" />
+
 
 #### 💡 Key Findings:
 1. **Trade Deficit:** ในช่วงต้นปี 2569 พบการขาดดุลการค้าประมาณ 8.7% - 9.4%
