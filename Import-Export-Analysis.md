@@ -17,8 +17,7 @@
 ---
 
 ### 📈 Key Performance Indicators (Jan - Feb 2569)
-| Total Import (Baht) | Total Export (Baht) | Trade Balance (US$) |
-| :---: | :---: | :---: |
+| Total Import (Baht) | Total Export (Baht) | Trade Balance (US$) 
 | ![Import](https://img.shields.io/badge/Import-1.09T_THB-red?style=for-the-badge) | ![Export](https://img.shields.io/badge/Export-9.12B_THB-green?style=for-the-badge) | ![Balance](https://img.shields.io/badge/Balance--3.3B_USD-orange?style=for-the-badge) |
 
 ---
