@@ -28,7 +28,7 @@ show_description: true
 
 theme: jekyll-theme-minimal
 title: "Trade Intelligence 2026"
-description: "Configuration Profile: analysis-v1.0.4 | Last Processed: 25 เมษายน 2569"
+description: 
 
 # ข้อมูลสำหรับแสดงผล (Metadata)
 data_source: "Open Government Data of Thailand"
