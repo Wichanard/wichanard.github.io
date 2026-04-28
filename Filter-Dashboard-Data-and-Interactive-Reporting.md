@@ -9,12 +9,6 @@ In this project, I acted as a Data Analyst designing a client-facing dashboard. 
 
 <img width="1516" height="848" alt="8 1 4" src="https://github.com/user-attachments/assets/d1a2cd3c-9687-4ceb-9125-813a404217a2" />
 
-🎯 Key Objectives & Deliverables (เป้าหมายและสิ่งที่ดำเนินการ)
-I successfully implemented the reporting requirements with Full Marks (100%):
-Hierarchical Data Display: Developed a Matrix visual to represent complex student-activity relationships.
-Multi-Level Filtering: Integrated Hard-coded, Report-level, and Page-level filters to ensure data relevance.
-Dynamic UX: Added interactive Slicers and cross-filtering visuals to enhance user consumption.
-
 
 
 สรุปสิ่งที่คุณได้ลงมือทำใน Lab นี้ (เพื่อใช้ตรวจสอบความเรียบร้อย):
@@ -27,14 +21,6 @@ Dynamic UX: Added interactive Slicers and cross-filtering visuals to enhance use
                                         User Control ใส่ Slicers เพื่อให้ลูกค้าเลือกดูข้อมูลเองได้ (Self-serve Insights)
 
 3.การสร้างประสบการณ์ใช้งาน (Interactive UX): ตั้งค่าให้ Visual ต่างๆ ทำงานสัมพันธ์กัน (Cross-filtering) เมื่อคลิกจุดหนึ่ง อีกจุดจะเปลี่ยนตาม
-
-
-
-✅ Achievements & Skills Gained (สิ่งที่ได้รับและทักษะที่ได้)
-Score: 100/100 (Excellence in Dashboard Delivery)
-CompTIA Data+ Proficiency: Mastered objectives 2.1 (Acquisition), 2.3 (Cleansing/Transformation), and 4.2 (Delivery & Consumption).
-End-User Focus: Demonstrated the ability to create reports that are not only accurate but also user-friendly and intuitive.
-Data Governance: Showcased how to use filters to restrict data access, ensuring users only see what is relevant to them.
 
 
 
