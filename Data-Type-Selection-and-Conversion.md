@@ -50,7 +50,7 @@ This project focuses on the foundational skills of a Data Analyst: ensuring data
 
 
 # สิ่งที่ได้รับจากการทำ Lab นี้ (Key Outcomes & Takeaways)
-กระบวนการนี้ไม่ใช่แค่การกดคลิกตามขั้นตอน แต่คือแก่นของการทำ ETL (Extract, Transform, Load) เพื่อให้ได้ Data Quality ที่ดีครับ สิ่งที่คุณได้กลับมาคือ:
+คือแก่นของการทำ ETL (Extract, Transform, Load) เพื่อให้ได้ Data Quality 
 
 ทักษะการตรวจสอบต้นทาง (Extraction & Profiling): รู้วิธีเข้าถึงข้อมูลดิบจาก SQL Database และตรวจสอบชนิดของข้อมูลตั้งแต่ระดับ Schema เพื่อป้องกันข้อผิดพลาดในการดึงข้อมูล
 
