@@ -10,7 +10,7 @@ In this project, I acted as a Data Analyst designing a client-facing dashboard. 
 
 
 # ภาพที่ 1: การสำรวจแหล่งข้อมูล (Data Source Exploration)
-<img width="582" height="355" alt="2 1" src="https://github.com/user-attachments/assets/4fde03e2-53b0-4857-97a7-5bde187a2be4" />
+<img  src="https://github.com/user-attachments/assets/4fde03e2-53b0-4857-97a7-5bde187a2be4" />
 
 สิ่งที่กำลังทำ: คือเรากำลังใช้งาน Microsoft SQL Server Management Studio (SSMS) เพื่อสำรวจฐานข้อมูล TDHS_StudentInfoSys
 รายละเอียด: มีการคลิกขวาที่ตาราง dbo.tblEnrollment และเตรียมใช้คำสั่ง Select Top 1000 Rows นี่คือขั้นตอนแรกในการทำ Data Profiling เพื่อขอดูหน้าตาข้อมูลคร่าวๆ ว่ามีลักษณะอย่างไรก่อนนำไปดึงไปประมวลผลต่อ
@@ -18,7 +18,7 @@ In this project, I acted as a Data Analyst designing a client-facing dashboard. 
 
 
 # ภาพที่ 2: การตรวจสอบโครงสร้างข้อมูล (Schema & Data Type Inspection)
-<img width="552" height="512" alt="2 2" src="https://github.com/user-attachments/assets/a80e6395-9e16-4a53-911e-7976cff30de3" />
+<img  src="https://github.com/user-attachments/assets/a80e6395-9e16-4a53-911e-7976cff30de3" />
 
 สิ่งที่กำลังทำ: เปิดดูหน้า Design ของตาราง dbo.tblEnrollment เพื่อตรวจสอบ Data Dictionary หรือ Schema ของตารางนี้
 รายละเอียด: ระบบแสดงให้เห็นชื่อคอลัมน์และ Data Type ต้นทางอย่างชัดเจน เช่น EnrollmentID เก็บเป็น int (ตัวเลขจำนวนเต็ม), EnrollmentDate เป็น datetime (วันและเวลา) และ SchYr_Grade เป็น nvarchar(2) (ข้อความ) การรู้ว่าระบบฐานข้อมูลต้นทางเก็บข้อมูลมาแบบไหน จะช่วยให้เราวางแผนแปลงข้อมูลได้อย่างถูกต้อง
@@ -26,7 +26,7 @@ In this project, I acted as a Data Analyst designing a client-facing dashboard. 
 
 
 # ภาพที่ 3: การแปลงประเภทข้อมูล (Data Type Conversion)
-<img width="416" height="561" alt="2 3" src="https://github.com/user-attachments/assets/ed758ff8-9bc5-4ef7-931e-f96a324c0e4f" />
+<img  src="https://github.com/user-attachments/assets/ed758ff8-9bc5-4ef7-931e-f96a324c0e4f" />
 
 สิ่งที่กำลังทำ: ข้อมูลถูกดึงเข้ามาใน Power Query Editor เพื่อทำการแปลงข้อมูล (Data Transformation)
 รายละเอียด: คุณกำลังคลิกเมนู Dropdown ที่หัวคอลัมน์ EnrollmentID เพื่อเปลี่ยนประเภทข้อมูล (Change Type) โดยกำลังจะเปลี่ยนจากตัวเลขให้กลายเป็น Text (ข้อความ)
