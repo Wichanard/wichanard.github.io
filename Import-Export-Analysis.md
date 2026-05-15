@@ -35,7 +35,7 @@
 
 ### 📊 Visualization Overview
 #### Trend Analysis (Import vs Export)
-<img width="788" height="470" alt="image" src="https://github.com/user-attachments/assets/0ceede75-8fab-42ac-939d-9aac4d7643cb" />
+<img  src="https://github.com/user-attachments/assets/0ceede75-8fab-42ac-939d-9aac4d7643cb" />
 
 
 #### 💡 Key Findings:
@@ -91,7 +91,7 @@ Google Gemini: เน้น "ความเข้าใจง่าย" – เ
 
 ChatGPT: เน้น "วิเคราะห์เจาะลึก" – เก่งเรื่องให้ Insight เชิงธุรกิจ เชื่อมโยงเหตุผล และช่วยวางแผนตัดสินใจได้ละเอียดที่สุด
 
-<img width="1536" height="1024" alt="ChatGPT Image 25 เม ย  2569 15_56_18" src="https://github.com/user-attachments/assets/6cdfad35-f259-410c-9a8c-ff8d2a557619" />
+<img  src="https://github.com/user-attachments/assets/6cdfad35-f259-410c-9a8c-ff8d2a557619" />
 
 
 สรุป:
