@@ -3,7 +3,7 @@
 หัวใจหลัก: ความเห็นอกเห็นใจ (Empathy) และการแก้ปัญหาให้ถูกจุด
 ใช้ตอนไหน: ช่วงเริ่มต้นโปรเจกต์ เมื่อคุณยังไม่แน่ใจว่า AI ที่คุณจะทำนั้นตอบโจทย์คนใช้งานจริงหรือไม่
 
-<img width="780" height="357" alt="Design Thinking" src="https://github.com/user-attachments/assets/81ebeed4-32e1-413a-b582-88235c944d95" />
+<img  src="https://github.com/user-attachments/assets/81ebeed4-32e1-413a-b582-88235c944d95" />
 
 
 # 💡 สรุปแนวคิด Design Thinking
@@ -99,7 +99,7 @@
 * **สิทธิประโยชน์ทางภาษี:**
     * ศึกษาเรื่อง **FTA (เขตการค้าเสรี)** เพื่อให้สินค้าไทย "ราคาถูกลง" ในสายตาผู้ซื้อต่างประเทศ
 
-   <img width="847" height="531" alt="image" src="https://github.com/user-attachments/assets/f8e02b7a-4e4c-414f-b0d0-91005e5f58fc" />
+   <img  src="https://github.com/user-attachments/assets/f8e02b7a-4e4c-414f-b0d0-91005e5f58fc" />
 
 
 ---
